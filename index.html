@@ -18,13 +18,16 @@
     <h1 class="display-3">Work Day Scheduler</h1>
     <p class="lead">A simple calendar app for scheduling your work day</p>
     <p id="currentDay" class="lead">January 10th, 2022</p>
+    <div class="container text-center">
+      <h2>Current Time: <span id="time"></span></h2>
+    </div>
   </header>
   <div class="container">
     <!-- Timeblocks go here -->
     <!-- Hour nine -->
     <div class="row" id="hour9" data-hour="9">
       <!-- Time -->
-      <div class="col-1">9am</div>
+      <div class="col-1" id="ppf9">9am</div>
       <!-- Task to do -->
       <textarea class="col-10 js-task"></textarea>
       <!-- Button -->
@@ -33,7 +36,7 @@
     <!-- Hour ten -->
     <div class="row" id="hour10" data-hour="10">
       <!-- Time -->
-      <div class="col-1">10am</div>
+      <div class="col-1" id="ppf10">10am</div>
       <!-- Task to do -->
       <textarea class="col-10 js-task"></textarea>
       <!-- Button -->
@@ -42,7 +45,7 @@
     <!-- Hour eleven -->
     <div class="row" id="hour11" data-hour="11">
       <!-- Time -->
-      <div class="col-1">11am</div>
+      <div class="col-1" id="ppf11">11am</div>
       <!-- Task to do -->
       <textarea class="col-10 js-task"></textarea>
       <!-- Button -->
@@ -51,7 +54,7 @@
     <!-- Hour twelve -->
     <div class="row" id="hour12" data-hour="12">
       <!-- Time -->
-      <div class="col-1">12pm</div>
+      <div class="col-1" id="ppf12">12pm</div>
       <!-- Task to do -->
       <textarea class="col-10 js-task"></textarea>
       <!-- Button -->
@@ -60,7 +63,7 @@
     <!-- Hour one -->
     <div class="row" id="hour1" data-hour="1">
       <!-- Time -->
-      <div class="col-1">1pm</div>
+      <div class="col-1" id="ppf1">1pm</div>
       <!-- Task to do -->
       <textarea class="col-10 js-task"></textarea>
       <!-- Button -->
@@ -69,7 +72,7 @@
     <!-- Hour two -->
     <div class="row" id="hour2" data-hour="2">
       <!-- Time -->
-      <div class="col-1">2pm</div>
+      <div class="col-1" id="ppf2">2pm</div>
       <!-- Task to do -->
       <textarea class="col-10 js-task"></textarea>
       <!-- Button -->
@@ -78,7 +81,7 @@
     <!-- Hour three -->
     <div class="row" id="hour3" data-hour="3">
       <!-- Time -->
-      <div class="col-1">3pm</div>
+      <div class="col-1" id="ppf3">3pm</div>
       <!-- Task to do -->
       <textarea class="col-10 js-task"></textarea>
       <!-- Button -->
@@ -87,7 +90,7 @@
     <!-- Hour four -->
     <div class="row" id="hour4" data-hour="4">
       <!-- Time -->
-      <div class="col-1">4pm</div>
+      <div class="col-1" id="ppf4">4pm</div>
       <!-- Task to do -->
       <textarea class="col-10 js-task"></textarea>
       <!-- Button -->
@@ -96,7 +99,7 @@
     <!-- Hour five -->
     <div class="row" id="hour5" data-hour="5">
       <!-- Time -->
-      <div class="col-1">5pm</div>
+      <div class="col-1" id="ppf5">5pm</div>
       <!-- Task to do -->
       <textarea class="col-10 js-task"></textarea>
       <!-- Button -->

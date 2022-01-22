@@ -2,15 +2,15 @@
 
 ## Description
 
-This is a random password generator program. It has a generate Password button that will begin the program with window prompts that will ask you specifically how you would like your password.
+This is a daily schedule maker application. you can store daily taska by hour and it will indicate if this hour has passed, is currently happening or is in the future.
 
-The window prompts that come up will ask you how long you will like your password. It only accept a minimum of 8 characters to a max of 128 characters, if you want lower case letters, uppercase letters, numbers, and/or if you want special characters/symbols in your password. once accepting or denying all of these specifications it will generate your random password in the "your secure password" text box.
+There are 9 different rows of tasks labeled from 9am - 5pm. each row has a text area where a user can write what task they want to do at that time and click a save button next to it so it stores in local storage. When the specific hour has passed the box with the time in it will turn red symbolizing that the hour is passed. if a box displaying the time is blue it shows that it is current in that hour, and if it shows green that means the hour has not come yet/it is in the future.
 
 ## Screenshot
 
-![Portfolio that has a navigation bar, 3 sections that include an About Me, Projects section, as well as a section for my links to github, linkedin, and my email address i can be reached at.](./img/DayScheduler.png)
+![Schedule Maker that has 9 rows of hours in it that can save daily tasks to local storage.](./img/DayScheduler.png)
 
 ## Links to Application
 
-- Here is the link to the repo: [smarr2198/repo](https://github.com/smarr2198/PasswordGenerator)
-- Here is the link to the pages: [smarr2198/pages](https://smarr2198.github.io/PasswordGenerator/)
+- Here is the link to the repo: [smarr2198/repo](https://github.com/smarr2198/Schedule.Maker)
+- Here is the link to the pages: [smarr2198/pages](https://smarr2198.github.io/Schedule.Maker/)
